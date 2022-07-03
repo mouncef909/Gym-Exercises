@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <meta name="description" content="gym exercises"/> 
+   <title>Gym Exercises</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <div class="container">
+    <header>
+       <h1>M-GYM</h1>
+      <ul>
+        <li class="home"><a href="#" onclick="back()">Home</a></li>
+        <li><a href="#" onclick="show()">Exercises</a></li>
+        <li><a href="#" onclick="contact()">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+      <input type="seach" id="srch" placeholder="muscle" value="" onchange="test()">
+      </div>
+    </header>
+    <div id="contact">
+        <h1>ghb09029@gmail.com</h1>
+      </div>
+    <div id="content">
+      <img src="https://www.bosshunting.com.au/wp-content/uploads/2021/10/desporto-1200x900.jpg" class="triceps" onclick="triceps()">
+      <img src="https://www.muscleandfitness.com/wp-content/uploads/2019/05/Chest-Straition.jpg?w=1109&quality=86&strip=all" class="chest" onclick="chest()">
+      <img src="https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2021/10/Back-Workout.jpg" class="back" onclick="bw()">
+      <img src="https://generationiron.com/wp-content/uploads/2018/12/10-Best-Biceps-in-the-History-of-Bodybuilding-1024x543.jpg" class="biceps"onclick="biceps()">
+    </div>
+    <div id="back-workout">
+      <img src="https://www.bodybuilding.com/images/2021/march/lat-pull-down-header-v2-830x467.jpg" class="lat"> <h2>Lat Pull-Down</h2>
+      <img src="https://www.bodybuilding.com/images/2021/march/t-bar-row-header-830x467.jpg" class="tbar"> <h2>T-Bar Row</h2>
+      <img src="https://www.bodybuilding.com/images/2021/march/bent-over-row-header-830x467.jpg" class="bent"><h2>Bent-Over Row</h2>
+    </div>
+    <div id="chest-workout">
+      <img src="https://static.strengthlevel.com/images/illustrations/bench-press-1000x1000.jpg" class="bench"> <h2>bench press</h2>
+      <img src="https://static.strengthlevel.com/images/illustrations/incline-bench-press-1000x1000.jpg" class="incline"> <h2>incline bench press</h2>
+      <img src="https://cdn.muscleandstrength.com/sites/default/files/field/feature-wide-image/article/bodybuilder-chest-fly-gym-1000.jpg" class="flies"><h2>flies</h2>
+    </div>
+    <div id="tri">
+      <img src="https://cdn-cccio.nitrocdn.com/sQAAylIpwgMYZgBLSXcMgCkUIbfIzHvb/assets/static/optimized/rev-2dfa115/wp-content/uploads/2020/08/tricep-rope-pulldown.gif">
+      <img src="https://www.aleanlife.com/wp-content/uploads/2020/08/overhead-tricep-extension.gif">
+    </div>
+    <div id="bi">
+      <img src="https://i.pinimg.com/originals/7d/3c/de/7d3cdeed84c1c19ad372d5b25beffd08.gif">
+      <img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Hammer-Curl.gif">
+    </div>
+  </div>
+    <script src="gym.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(21, 21, 21);
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000,rgb(21, 21, 21));
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    color: #fff;
+    font-size: 35px;
+    padding: 35px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    transition: all 0.3s ease 0s;
+    margin-top: 3px;
+}
+ul li a:hover{
+    background: linear-gradient(rgb(31, 29, 0),rgb(131, 141, 0));
+    border-radius: 20px;
+}
+ul li a:hover,.home {
+    background: linear-gradient(rgb(31, 29, 0),rgb(131, 141, 0));
+    border-radius: 20px;
+}
+#content{
+    width:70%;
+    transition: 1.5s;
+    padding: 50px;
+}
+#content .back{
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#content .chest{
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#content .biceps{
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#content .triceps{
+   width: 250px;
+   border: 1px solid #fff;
+   border-radius: 20px;
+   cursor: pointer;
+}
+#content img:hover{
+    transform: scale(1.2);
+    border: 2px solid rgb(169, 0, 0);
+}
+#contact{
+    text-align: center;
+}
+#contact h1{
+    color: #fff;
+    padding: 160px;
+}
+
+#srch{
+    background: transparent;
+    border: 1px #fff solid;
+    width: 120px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+}
+#back-workout h2{
+    color: #fff;
+}
+#back-workout img{
+    border: 1px #fff solid;
+    border-radius: 20px;
+}
+#chest-workout h2{
+    color: #fff;
+}
+#chest-workout img{
+    border: 1px #fff solid;
+    border-radius: 20px;
+    width: 600px;
+}
+#triceps-workout img{
+    border: 1px #fff solid;
+    border-radius: 20px;
+}
+#biceps-workout img{
+    border: 1px #fff solid;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
